@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var uiWebView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let url = NSURL(string: "http://alphasis.info/2013/08/javascript-dom-elementobject-scrollleft/")
+        let urlRequest = NSURLRequest(URL: url!)
+        self.uiWebView.loadRequest(urlRequest)
+
     }
 
     override func didReceiveMemoryWarning() {

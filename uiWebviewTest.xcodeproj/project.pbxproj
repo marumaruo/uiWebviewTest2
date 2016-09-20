@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					C7A5D2B81D8BC4340079F964 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NA73FA2B9S;
 					};
 					C7A5D2CC1D8BC4340079F964 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = uiWebviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.maru.ishi.uiWebviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = uiWebviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.maru.ishi.uiWebviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +491,7 @@
 				C7A5D2E31D8BC4340079F964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A5D2E41D8BC4340079F964 /* Build configuration list for PBXNativeTarget "uiWebviewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +500,7 @@
 				C7A5D2E61D8BC4340079F964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A5D2E71D8BC4340079F964 /* Build configuration list for PBXNativeTarget "uiWebviewTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +509,7 @@
 				C7A5D2E91D8BC4340079F964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
